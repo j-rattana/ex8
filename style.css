@@ -15,14 +15,21 @@ html {
   color: #5b2c06;
   font-family: 'Tahoma', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 /*change img height to 300px and width to auto*/
 img {
-  height: 300px;
+  height: 500px;
   width: auto;
+  display: block;
+  margin: 0 auto 30px;
 }
 
 /*change subtitle font size to larger than the default. */
@@ -36,11 +43,16 @@ img {
 .time {
   font-weight: bold;
   color: #d65a31;
+  margin-bottom: 5px;
 }
 
 /*select the li inside of ingredients to list-style: square*/
 ul {
   list-style: square;
+}
+
+ul, ol {
+  margin-bottom: 20px;
 }
 
 /*select the link and change it's color; */
