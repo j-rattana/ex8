@@ -2,16 +2,77 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 ul, ol {
   margin-left: 25px;
 }
+
 /*select html and set the background color, color, font family with fallback, and font size. */
+html {
+  background-color: #fff3e0;
+  color: #5b2c06;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
 /*change img height to 300px and width to auto*/
+img {
+  height: 300px;
+  width: auto;
+}
+
 /*change subtitle font size to larger than the default. */
+.subtitle {
+  font-size: 1.5rem;
+  color: #8c5e2f;
+}
+
 /*Change the times to a bold font-weight*/
-/*select the li inside of ingredients to list-style: square*/
 /*select the times inside of the lists and change to a different color*/
+.time {
+  font-weight: bold;
+  color: #d65a31;
+}
+
+/*select the li inside of ingredients to list-style: square*/
+ul {
+  list-style: square;
+}
+
 /*select the link and change it's color; */
+a:link {
+  color: #d65a31;
+}
+
+a:visited {
+  color: #b34720;
+}
+
+a:hover {
+  color: #ff7f50;
+  text-decoration: none;
+}
+
+a:active {
+  color: #d65a31;
+}
+
 /*select h1 and h2 elements and change their case to uppercase*/
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #d65a31;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #993d1f;
+}
