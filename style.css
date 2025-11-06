@@ -24,16 +24,16 @@ header {
   margin-bottom: 40px;
 }
 
-main {
-  max-width: 800px;
-}
-
 /*change img height to 300px and width to auto*/
 img {
   height: 500px;
   width: auto;
   display: block;
   margin: 0 auto 30px;
+}
+
+.content {
+  max-width: 800px;
 }
 
 /*change subtitle font size to larger than the default. */
